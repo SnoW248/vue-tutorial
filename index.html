@@ -6,13 +6,10 @@
 </head>
 <body>
     <div id="app">
-        <ul>
-            <li v-for="value in user">{{ value }}</li>
-        </ul>
-        <hr>
-        <ul>
-            <li v-for="(value, key) in user">{{ key }}: {{ value }}</li>
-        </ul>
+        <button v-on:click="onclick">
+            click!
+        </button>
+        <p>{{ now }}</p>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.9/dist/vue.js"></script>
