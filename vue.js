@@ -1,6 +1,10 @@
-var app = new Vue({
+new Vue({
     el: "#app",
     data: {
-        message: "Hello world"
+        user: {
+            firstName: 'Taro',
+            lastName: 'Yamada',
+            age: 28
+        }
     }
 })
